@@ -3,7 +3,7 @@
 # Wesbite Regional Performance
 
 ## Authors
-Sandra, Amit, Massood, Ric
+Sandra Tobon, Amit Pandi, Masood Khan, Ric Clark
 
 ## Project Brief
 ### Regional Performance
@@ -19,6 +19,15 @@ The data was called from the google_analytics API.
 
 The dashboard was created shinydashboard with the following libraries: 
 - `library(leaflet)`
+- 'library(shiny)'           
+- 'library(shinythemes)'
+- 'library(tidyverse)'               
+- 'library(readr)'
+- 'library(DT)'
+- 'library(shinyWidgets)'
+- 'library(geosphere)'
+- 'library(lubridate)'
+- 'library(tsibble)'
 
 
 ## Synthesising the data
