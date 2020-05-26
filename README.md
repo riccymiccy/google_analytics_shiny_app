@@ -3,14 +3,14 @@
 # Wesbite Regional Performance
 
 ## Authors
-Sandra Tobon, Amit Pandi, Masood Khan, Ric Clark
+Sandra Tobon, Amit Pandit, Masood Khan, Ric Clark
 
-We had 6 days to think, brainstrom, plan, code and debug our shiny app. We worked on the project completely remotely, due to COVID-19 peventing us from meeting.
+We had 6 days to think, brainstorm, plan, code and debug our shiny app. We worked on the project completely remotely, due to COVID-19 peventing us from meeting.
 
 ## Project Brief
 ### Regional Performance
 
-The client wanted the ability to analyse website performance as Google Analystics is too restrictive.
+The client wanted the ability to analyse website performance as Google Analytics is too restrictive.
 - Limited or no ability to compare site performance between their three locations
 - Overview of a single city’s performance is complicated because of Google Analytics’ use of multiple small towns around a given city
 - Compare site performance in a defined Edinburgh, Glasgow and Inverness catchment
@@ -36,7 +36,7 @@ The dashboard was created shinydashboard with the following libraries:
 
 ## Synthesising the data
 For public demonstrations of this dashboard the data was synthesised in R using `library(synthpop)`. 
-Calls were made to the GoogleAnalytics API to extract the metrics and dimension of interest. The output data was put through the synthpop library in R.
+Calls were made to the Google Analytics API to extract the metrics and dimension of interest. The output data was put through the synthpop library in R.
 
 ## How we spent our time
 Day 1: We spent a lot of time trying to answer what the business question was and thinking about ideas individually as well as coming together to discuss the constraints of Google Analytics, presenting value in a dashboard and discussing ideas. 
@@ -60,3 +60,4 @@ Customise the dashboard as per the marketing campaigns and have flexibility of a
 Plot the marketing campaigns in the line graph
 Plot the marketing campaigns in the graphs on a 90 day before and after comparison with a reactive function
 Dashboard is only for Scotland at the moment but other regions coverage could be added e.g. North of England
+
