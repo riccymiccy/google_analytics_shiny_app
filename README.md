@@ -10,12 +10,14 @@ Sandra Tobon, Amit Pandi, Masood Khan, Ric Clark
 
 The client wanted the ability to analyse website performance as Google Analystics is too restrictive.
 - Limited or no ability to compare site performance between their three locations
-- Overview of a single city’s performance including surrounding towns
+- Overview of a single city’s performance is complicated because of Google Analytics’ use of multiple small towns around a given city
 - Compare site performance in a defined Edinburgh, Glasgow and Inverness catchment
+
+We have synthesised the data for the purposes of demonstrating what we achieved. The link to that data can be found here.
 
 ## Tools
 
-The data was called from the google_analytics API.
+The data was called from the google_analytics API. We were coding in R.
 
 The dashboard was created shinydashboard with the following libraries: 
 - `library(leaflet)`
@@ -36,12 +38,7 @@ Calls were made to the GoogleAnalytics API to extract the metrics and dimension 
 
 ## Dashboard
 ### Overview Tab
-In an attempt to not overcomplicate the dashboard and ensure we answered the brief the dashboard was limited to one interactive tab. The user can select a desired date range, set a circular catchment area for Edinburgh, Glasgow and Inverness in kilometers and select between the catchment areas displayed on the plots. 
 
-- The top left plot shows a visual map of the user defined catchment areas
-- Top right plot shows the number of sessions daily per catchment area within the user defined filters
-- Bottom left displays numeric data relating to the cities in the user defined ranges
-- Bottom right shows the total sessions for the chosen catchment areas in the defined date range and catchment radius
 
 #### Defining the catchments
 
