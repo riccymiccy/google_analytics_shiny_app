@@ -23,15 +23,15 @@ The data was called from the google_analytics API. We were coding in R.
 
 The dashboard was created shinydashboard with the following libraries: 
 - `library(leaflet)`
-- 'library(shiny)'           
-- 'library(shinythemes)'
-- 'library(tidyverse)'               
-- 'library(readr)'
-- 'library(DT)'
-- 'library(shinyWidgets)'
-- 'library(geosphere)'
-- 'library(lubridate)'
-- 'library(tsibble)'
+- `library(shiny)`
+- `library(shinythemes)`
+- `library(tidyverse)`              
+- `library(readr)`
+- `library(DT)`
+- `library(shinyWidgets)`
+- `library(geosphere)`
+- `library(lubridate)`
+- `library(tsibble)`
 
 
 ## Synthesising the data
