@@ -56,8 +56,8 @@ Day 6: We each took our turn to present to the client.
 
 
 ## Additional functionality that we would have liked to do if we had more time
-Customise the dashboard as per the marketing campaigns and have flexibility of adding new campaigns
-Plot the marketing campaigns in the line graph
-Plot the marketing campaigns in the graphs on a 90 day before and after comparison with a reactive function
+Customise the dashboard as per the marketing campaigns and have flexibility of adding new campaigns; 
+Plot the marketing campaigns in the line graph; 
+Plot the marketing campaigns in the graphs on a 90 day before and after comparison with a reactive function; 
 Dashboard is only for Scotland at the moment but other regions coverage could be added e.g. North of England
 
