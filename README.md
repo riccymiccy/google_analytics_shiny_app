@@ -5,6 +5,8 @@
 ## Authors
 Sandra Tobon, Amit Pandi, Masood Khan, Ric Clark
 
+We had 6 days to think, brainstrom, plan, code and debug our shiny app. We worked on the project completely remotely, due to COVID-19 peventing us from meeting.
+
 ## Project Brief
 ### Regional Performance
 
@@ -36,16 +38,16 @@ The dashboard was created shinydashboard with the following libraries:
 For public demonstrations of this dashboard the data was synthesised in R using `library(synthpop)`. 
 Calls were made to the GoogleAnalytics API to extract the metrics and dimension of interest. The output data was put through the synthpop library in R.
 
+## How we spent our time
+Day 1: We spent a lot of time trying to answer what the business question was and thinking about ideas individually as well as coming together to discuss the constraints of Google Analytics, presenting value in a dashboard and discussing ideas. 
+
+Day 2: We did a lot of brainstorming and spent a lot of time focusing on the client's brief. We planned how we could build a framework to show the client and additional questions we could ask to deliver what they were looking for. We also created the GitHub repository to build the app and cretaed a basic skeleton for it in R Studio. We also drew some wireframes of potential dashboard designs. We contacted the client to get some more specific information about other marketing campaigns that taken place, date, medium and geographic focus.
+
+Day 3: We had a client meeting where we outlined our proposed plan. The client liked our proposal and gave us feedback. We also discussed additional data that he could perhaps provide for us. Afterwards, after some more planning discussion, we decided how to split the coding within the team. Sandra decided she wanted to to do all the coding to extract the data from Google Analtyics and the associated data wrangling to make it usable for a reactive dashboard. Amit and Masood decide to work on the graphs and shiny widgets. Ric opted to work on a map to show the geospatial dsitribution of website contacts.
+
+Day 4: 
+
 ## Dashboard
 ### Overview Tab
 
 
-#### Defining the catchments
-
-
-![](/www/screenshot_overview.png)
-
-### Raw Data Tab
-This tab shows the raw data which changes in reaction to the user inputs. Kept in incase the user wants to understand the changes behind the scene or to debug.
-
-![](/www/screenshot_rawdata_menu.png)
