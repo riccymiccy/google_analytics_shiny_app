@@ -1,11 +1,11 @@
 # google_analytics_shiny_app
 
-# Webite Regional Performance
+# Website Regional Performance
 
 ## Authors
 Sandra Tobon, Amit Pandit, Masood Khan, Ric Clark
 
-We had 6 days to think, brainstorm, plan, code and debug our shiny app. We worked on the project completely remotely, due to COVID-19 peventing us from meeting.
+We had 6 days to think, brainstorm, plan, code and debug our shiny app. We worked on the project completely remotely, due to COVID-19 peventing us from meeting in person.
 
 ## Project Brief
 ### Regional Performance
